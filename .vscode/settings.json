@@ -3,5 +3,11 @@
     "code-runner.saveFileBeforeRun": true,
     "code-runner.executorMap": {
         "cpp": "cd $dir && clang++ -std=c++17 $fileName -o $fileNameWithoutExt && ./$fileNameWithoutExt"
-    }
+    },
+    "terminal.integrated.fontFamily": "monospace",
+    "terminal.integrated.fontSize": 14,
+    "terminal.integrated.cursorBlinking": true,
+    "terminal.integrated.cursorStyle": "underline",
+    "terminal.integrated.minimumContrastRatio": 7,
+    "terminal.integrated.theme": "dark"
 }
